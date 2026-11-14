@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brasileirão Série A 2026</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="wrap">
+            <div class="brand">
+                <div class="cup">🏆</div>
+
+                <div>
+                    <h1>Brasileirão Série A</h1>
+                    <p>Temporada 2026 · 20 clubes · 38 rodadas</p>
+                </div>
+            </div>
+
+            <div class="prog">
+                <div class="bar">
+                    <i id="barra"></i>
+                </div>
+
+                <span id="progtxt"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="leader" id="lider"></div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="tabs" id="tabs">
+            <button data-t="tab" class="on">
+                Classificação
+            </button>
+
+            <button data-t="jog">
+                Jogos
+            </button>
+
+            <button data-t="tim">
+                Clubes
+            </button>
+        </div>
+
+        <section id="tab"></section>
+        <section id="jog" hidden></section>
+        <section id="tim" hidden></section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
